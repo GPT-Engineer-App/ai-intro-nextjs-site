@@ -6,16 +6,16 @@ const Index = () => {
   return (
     <Box>
       {/* Hero Section */}
-      <Box bg="purple.600" color="white" py={20}>
+      <Box bg="blue.900" color="white" py={24}>
         <Container maxW="container.lg">
-          <Heading as="h1" size="2xl" mb={4}>
-            Welcome to AICorp
+          <Heading as="h1" size="3xl" mb={6}>
+            Innovating with AI for a Smarter Future
           </Heading>
-          <Text fontSize="xl" mb={8}>
-            Revolutionizing industries with cutting-edge AI solutions
+          <Text fontSize="xl" mb={10}>
+            AICorp: Driving digital transformation through cutting-edge artificial intelligence technologies
           </Text>
-          <Button colorScheme="white" size="lg">
-            Get Started
+          <Button colorScheme="blue" size="lg">
+            Learn More
           </Button>
         </Container>
       </Box>
@@ -35,14 +35,14 @@ const Index = () => {
       </Box>
 
       {/* Services Section */}
-      <Box bg="gray.100" py={20}>
+      <Box bg="gray.50" py={20}>
         <Container maxW="container.lg">
           <Heading as="h2" size="xl" mb={8}>
             Our Services
           </Heading>
           <Stack spacing={8}>
             <Flex align="center">
-              <Box as={FaRocket} size="3em" color="purple.600" mr={4} />
+              <Box as={FaRocket} size="3em" color="blue.600" mr={4} />
               <Box>
                 <Heading as="h3" size="lg" mb={2}>
                   AI Consulting
@@ -51,7 +51,7 @@ const Index = () => {
               </Box>
             </Flex>
             <Flex align="center">
-              <Box as={FaBrain} size="3em" color="purple.600" mr={4} />
+              <Box as={FaBrain} size="3em" color="blue.600" mr={4} />
               <Box>
                 <Heading as="h3" size="lg" mb={2}>
                   AI Solutions Development
@@ -60,7 +60,7 @@ const Index = () => {
               </Box>
             </Flex>
             <Flex align="center">
-              <Box as={FaUsers} size="3em" color="purple.600" mr={4} />
+              <Box as={FaUsers} size="3em" color="blue.600" mr={4} />
               <Box>
                 <Heading as="h3" size="lg" mb={2}>
                   AI Training and Support
@@ -72,17 +72,31 @@ const Index = () => {
         </Container>
       </Box>
 
-      {/* CTA Section */}
-      <Box bg="purple.600" color="white" py={20}>
-        <Container maxW="container.lg" textAlign="center">
-          <Heading as="h2" size="xl" mb={4}>
-            Ready to Transform Your Business with AI?
+      {}
+      <Box py={20}>
+        <Container maxW="container.lg">
+          <Heading as="h2" size="xl" mb={8}>
+            Our Partners and Clients
           </Heading>
-          <Text fontSize="lg" mb={8}>
-            Contact us today to learn how AICorp can help you unlock the power of artificial intelligence and drive your business forward.
+          <Stack direction="row" spacing={8} justify="center">
+            <Image src="path/to/partner1-logo.png" alt="Partner 1" />
+            <Image src="path/to/partner2-logo.png" alt="Partner 2" />
+            <Image src="path/to/partner3-logo.png" alt="Partner 3" />
+          </Stack>
+        </Container>
+      </Box>
+
+      {}
+      <Box bg="blue.900" color="white" py={24}>
+        <Container maxW="container.lg" textAlign="center">
+          <Heading as="h2" size="2xl" mb={6}>
+            Unlock the Power of AI for Your Business
+          </Heading>
+          <Text fontSize="lg" mb={10}>
+            Partner with AICorp's expert team to leverage AI and drive innovation in your industry. Schedule a consultation today.
           </Text>
-          <Button colorScheme="white" size="lg">
-            Get in Touch
+          <Button colorScheme="blue" size="lg">
+            Request a Consultation
           </Button>
         </Container>
       </Box>
